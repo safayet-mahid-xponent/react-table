@@ -2,6 +2,7 @@ import React from 'react';
 
 const Globalfilter = ({column}) => {
     const {filterValue,setFilter} = column
+    
     return (
         <span> 
             Search : { " "}
